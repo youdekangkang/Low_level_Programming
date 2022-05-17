@@ -1,0 +1,9 @@
+section .text
+exit:
+	xor rax,rax
+	mov rax,60
+	xor rdi,rdi
+	syscall
+
+string_length:
+	
